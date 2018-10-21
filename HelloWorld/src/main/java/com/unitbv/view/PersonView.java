@@ -31,6 +31,9 @@ public class PersonView extends HttpServlet{
 
 		person = repo.createOrUpdate(person);		
 
+		response.getWriter().write("<html>" + "<body>" + "Id: " + person.getId() + "<br>"
+		+ "Name: " + person.getName() +"<br>"+ "Email: "+ person.getEmail() +	"</body>" + "</html>");
+		response.getWriter().flush();
 	}
 
 	// Method to handle POST method request.

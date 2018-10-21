@@ -1,0 +1,3 @@
+com\unitbv\impl\App.class
+com\unitbv\entities\Person.class
+com\unitbv\view\PersonView.class

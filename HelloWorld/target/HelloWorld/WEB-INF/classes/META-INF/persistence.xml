@@ -5,7 +5,7 @@
              http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
 	version="2.1">
 
-	<persistence-unit name="PersonPU">
+	<persistence-unit name="lab1">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<class>com.unitbv.entities.Person</class>
 		<properties>
@@ -19,7 +19,7 @@
 				value="class" />
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />
-			<property name="hibernate.hbm2ddl.auto" value="create" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
 		</properties>
 	</persistence-unit>
 
